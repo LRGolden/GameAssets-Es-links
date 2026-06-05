@@ -51,7 +51,8 @@ Directorio de links GameAssets, bundles, y templates, add-on y de tools; princip
 | 19| [Pixel Art Trees](https://opengameart.org/content/pixel-art-trees) | OpenGameArt | 🔵 CC-BY 3.0 |
 | 20| [Water Animation](https://opengameart.org/content/water-animation) | OpenGameArt | 🔵 CC-BY 3.0 |
 
-### 🧊 3D: Modelos y Mallas| # | Activo | Autor / Fuente | Licencia |
+### 🧊 3D: Modelos y Mallas
+| # | Activo | Autor / Fuente | Licencia |
 |---|--------|----------------|----------|
 | 21| [Space Kit (3D)](https://kenney.nl/assets/space-kit) | Kenney | 🟢 CC0 |
 | 22| [Character Pack (3D)](https://kenney.nl/assets/character-pack) | Kenney | 🟢 CC0 |
