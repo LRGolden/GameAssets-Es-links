@@ -4,10 +4,10 @@ Directorio de links GameAssets, bundles, y templates, add-on y de tools; princip
 
 # 🎮 Awesome Permissive GameAssets Es
 
-> Una colección curada y organizada de **50 activos de juego** con licencias permisivas (CC0, CC-BY, SIL OFL, Apache 2.0), ideal para prototipos, game jams y proyectos comerciales.
+> Una colección curada y organizada de **60 activos y herramientas de juego** con licencias permisivas (CC0, CC-BY, MIT, Apache 2.0), ideal para prototipos, game jams y proyectos comerciales.
 
-![License](https://img.shields.io/badge/Licencias-CC0%20%7C%20CC--BY%20%7C%20SIL%20OFL-green)
-![Topics](https://img.shields.io/badge/Topics-2D%20%7C%203D%20%7C%20Audio%20%7C%20UI%20%7C%20VFX-blue)
+![License](https://img.shields.io/badge/Licencias-CC0%20%7C%20MIT%20%7C%20Apache%20%7C%20SIL%20OFL-green)
+![Topics](https://img.shields.io/badge/Topics-2D%20%7C%203D%20%7C%20Audio%20%7C%20UI%20%7C%20Tools-blue)
 ![Status](https://img.shields.io/badge/Estado-Actualizado%202026-brightgreen)
 
 ---
@@ -19,8 +19,10 @@ Directorio de links GameAssets, bundles, y templates, add-on y de tools; princip
 4. [🖼️ Texturas y Materiales](#️-texturas-y-materiales)
 5. [🔊 Audio: SFX y Música](#-audio-sfx-y-música)
 6. [🖥️ UI, Fuentes y VFX](#️-ui-fuentes-y-vfx)
-7. [⚠️ Nota Legal](#️-nota-legal)
+7. [🛠️ Herramientas de Desarrollo (Game Dev Tools)](#️-herramientas-de-desarrollo-game-dev-tools)
+8. [⚠️ Nota Legal](#️-nota-legal)
 
+---
 ---
 
 ### 🎨 2D: Sprites y Personajes
@@ -97,13 +99,28 @@ Directorio de links GameAssets, bundles, y templates, add-on y de tools; princip
 | 49| [Particle Pack](https://kenney.nl/assets/particle-pack) | Kenney | 🟢 CC0 |
 | 50| [VFX Pack](https://kenney.nl/assets/vfx-pack) | Kenney | 🟢 CC0 |
 
+### 🛠️ Herramientas de Desarrollo (Game Dev Tools)
+| # | Herramienta | Qué hace (y por qué te salva la vida) | Licencia |
+|---|-------------|---------------------------------------|----------|
+| 51 | [LDtk](https://ldtk.io/) | Editor de niveles 2D creado por el desarrollador de *Dead Cells*. Diseñado específicamente para tilemaps y niveles con metadatos ricos. Se integra nativamente con Godot, Unity, Haxe y más. | 🟢 MIT |
+| 52 | [Draco](https://github.com/google/draco) | Compresor de mallas 3D desarrollado por Google. Reduce drásticamente el peso de tus modelos `.obj`/`.glb` sin perder calidad visual. Imprescindible para juegos web o móviles. | 🟡 Apache 2.0 |
+| 53 | [Jolt Physics](https://github.com/jrouwe/JoltPhysics) | Motor de física 3D moderno y optimizado, usado en *Horizon Forbidden West*. Alternativa potente a Bullet o PhysX, con soporte para personajes, vehículos y ragdolls. | 🟢 MIT |
+| 54 | [Flecs](https://www.flecs.dev/) | Framework ECS (Entity Component System) ultrarrápido escrito en C. Te permite organizar tu código de juego de forma modular y escalable, con un explorador visual incluido para debuggear entidades en tiempo real. | 🟢 MIT |
+| 55 | [FastNoiseLite](https://github.com/Auburn/FastNoiseLite) | Librería de generación procedural de ruido (Perlin, Simplex, Cellular, etc.) disponible en C++, C#, C, Java y más. Ideal para generar terrenos, biomas, texturas o dungeons proceduralmente. | 🟢 MIT |
+| 56 | [msdfgen](https://github.com/Chlumsky/msdfgen) | Generador de fuentes SDF (Signed Distance Field). Permite renderizar texto en tu juego con una nitidez perfecta a cualquier escala, sin pixelado ni bordes dentados, usando shaders sencillos. | 🟢 MIT |
+| 57 | [miniaudio](https://github.com/mackron/miniaudio) | Librería de audio en un solo archivo (`single-file`). Soporta reproducción, captura, mezcla y efectos 3D. Se integra en tu proyecto en 5 minutos sin dependencias externas. | 🟢 MIT / Unlicense (dual) |
+| 58 | [Free Texture Packer](https://github.com/nickyvanurk/Free-Texture-Packer) | Empaqueta tus sprites en atlases optimizados automáticamente. Soporta formatos para SpriteKit, PixiJS, Phaser, Godot y más. Alternativa gratuita a TexturePacker. | 🟡 BSD 3-Clause |
+| 59 | [RenderDoc](https://renderdoc.org/) | Debugger gráfico frame a frame. Te permite inspeccionar cada draw call, shader, textura y buffer de tu juego en ejecución. Imprescindible para optimizar el rendimiento gráfico. | 🟢 MIT |
+| 60 | [Basis Universal](https://github.com/BinomialLLC/basis_universal) | Compresor de texturas transcodificable. Convierte tus texturas en un formato único (`.basis` o `.ktx2`) que se adapta automáticamente a la GPU del dispositivo (ETC1S, ASTC, BC7, etc.), reduciendo VRAM y tiempos de carga. | 🟡 Apache 2.0 |
+
 ---
 
 ### 📖 Leyenda de Licencias
 
-- 🟢 **CC0 (Creative Commons Zero)**: Dominio público. Puedes usar, modificar y distribuir con fines comerciales **sin necesidad de dar crédito** (aunque se agradece).
-- 🔵 **CC-BY / CC-BY-SA**: Requiere **atribución** al autor original. La variante "SA" (ShareAlike) exige que las obras derivadas usen la misma licencia.
-- 🟣 **SIL OFL / Apache**: Licencias estándar de la industria para tipografías y software. Permiten uso comercial y modificación libre.
+- 🟢 **MIT / Unlicense / Zlib**: Dominio público o casi. Uso comercial libre, sin obligación de compartir tu código.
+- 🟡 **Apache 2.0 / BSD**: Uso comercial libre, requiere mantener el aviso de copyright original. Sin copyleft.
+- 🔵 **CC-BY / CC-BY-SA**: Requiere atribución. La variante "SA" exige que las obras derivadas usen la misma licencia.
+- 🟣 **SIL OFL**: Licencia estándar para tipografías. Permite uso comercial y modificación.
 
 ### ⚠️ Nota Legal
 
